@@ -1,0 +1,40 @@
+# NS-3 Build outputs
+build/
+cmake-cache/
+.lock-ns3*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.pcap
+*.tr
+*.xml
+testpy-output/
+
+# Documentation build
+doc/html/
+doc/latex/
+doc/manual/build/
+doc/models/build/
+doc/tutorial/build/
+
+# Python virtual environment
+venv/
+env/
+*.egg-info/
